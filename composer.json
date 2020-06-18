@@ -1,0 +1,30 @@
+{
+    "name": "hexolus/uuid",
+    "description": "UUID for Laravel Model",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Meta Sanjaya",
+            "email": "metasanjaya@gmail.com"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "^4.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hexolus\\UUID\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hexolus\\UUID\\Providers\\UUIDServiceProvider"
+            ]
+        }
+    }
+}
