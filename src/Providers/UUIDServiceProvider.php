@@ -1,10 +1,10 @@
 <?php
 
-namespace Hexolus\UUID\Providers;
+namespace Hexolus\Laravel\UUID\Providers;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
-class UUIDServiceProvider extends ServiceProvider
+class ServiceProvider extends LaravelServiceProvider
 {
     public function register()
     {

@@ -1,5 +1,5 @@
 {
-    "name": "hexolus/uuid",
+    "name": "hexolus/laravel-uuid",
     "description": "UUID for Laravel Model",
     "type": "library",
     "license": "MIT",
@@ -17,14 +17,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Hexolus\\UUID\\": "src/"
+            "Hexolus\\Laravel\\UUID\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Hexolus\\UUID\\Providers\\UUIDServiceProvider"
+                "Hexolus\\Laravel\\UUID\\Providers\\UUIDServiceProvider"
             ]
         }
-    }
+    },
+    "version": "1.0.0"
 }
