@@ -1,4 +1,4 @@
-# hexolus/uuid Changelog
+# hexolus/laravel-uuid Changelog
 
 All notable changes to this project will be documented in this file.
 
