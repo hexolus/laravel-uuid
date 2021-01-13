@@ -1,6 +1,6 @@
 <?php 
 
-namespace Hexolus\Laravel\UUID\Traits;
+namespace Hexolus\UUID\Traits;
 
 use Ramsey\Uuid\Uuid;
 

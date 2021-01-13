@@ -1,7 +1,6 @@
 {
-    "name": "hexolus/laravel-uuid",
-    "description": "UUID for Laravel Model",
-    "type": "library",
+    "name": "hexolus/uuid",
+    "description": "UUID Traits for Laravel Model",
     "license": "MIT",
     "authors": [
         {
@@ -17,18 +16,22 @@
     },
     "autoload": {
         "psr-4": {
-            "Hexolus\\Laravel\\UUID\\": "src/"
+            "Hexolus\\UUID\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Hexolus\\Laravel\\UUID\\Providers\\UUIDServiceProvider"
+                "Hexolus\\UUID\\UUIDServiceProvider"
             ],
             "dont-discover": [
-                "orchestra/testbench"
+                "*"
             ]
         }
     },
-    "version": "1.0.0"
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
