@@ -24,6 +24,9 @@
         "laravel": {
             "providers": [
                 "Hexolus\\Laravel\\UUID\\Providers\\UUIDServiceProvider"
+            ],
+            "dont-discover": [
+                "orchestra/testbench"
             ]
         }
     },
